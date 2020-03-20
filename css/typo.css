@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400|Playfair+Display:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+
+body {
+
+}
+.project-feature {
+color: white;
+}
+
+figcaption { font-family: Oswald, sans-serif;
+  color: #d7a7a7;
+}
+
+p{ font-family: Oswald, sans-serif;
+  color: white;
+
+}
+
+h1 {
+  font-family: Bebas Neue;
+  color: #a66363;
+  font-size: 3em;
+  margin-bottom: 1.25em;
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+}
+
+h2 { font-family: Bebas Neue;
+color: #a66363;
+font-size: 3em;
+margin-bottom: 1.25em;
+text-align: center;
+margin-top: 100px;
+background-color: white;
+padding-top: 20px;
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.25em;
+  color: #d9d7d7;
+
+}
+
+h4 { font-family: 'Varela Round', sans-serif;
+font-size: 1.25em;
+color: #a66363;
+
+}
+
+
+
+
+
+a {
+  color: purple;
+  font-family: Oswald, sans-serif;
+  font-size: 0.50em;
+
+}

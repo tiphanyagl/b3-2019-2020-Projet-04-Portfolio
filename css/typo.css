@@ -2,27 +2,37 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body {
 
 }
-.project-feature {
+.paperheart-feature {
 color: white;
 }
 
-figcaption { font-family: Oswald, sans-serif;
-  color: #d7a7a7;
-}
-
-p{ font-family: Oswald, sans-serif;
+.graphism-feature {
   color: white;
 
 }
 
+figcaption { font-family: 'Raleway', sans-serif;
+color: #FF89F1;
+}
+
+p{ font-family: Oswald, sans-serif;
+  color: #DFC9FF;
+
+}
+
+
+
 h1 {
-  font-family: Bebas Neue;
-  color: #a66363;
+  font-family: 'Homemade Apple';
+  color: #D1B9FF;
   font-size: 3em;
   margin-bottom: 1.25em;
   text-align: center;
@@ -30,9 +40,9 @@ h1 {
   background-color: white;
 }
 
-h2 { font-family: Bebas Neue;
-color: #a66363;
-font-size: 3em;
+h2 { font-family: 'Raleway', sans-serif;
+color: #D1B9FF;
+font-size: 2em;
 margin-bottom: 1.25em;
 text-align: center;
 margin-top: 100px;
@@ -41,15 +51,16 @@ padding-top: 20px;
 }
 
 h3 {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1.25em;
-  color: #d9d7d7;
+  font-family: 'VT323', monospace;
+  font-size: 2em;
+  color: #D1B9FF;
+  text-align: center;
 
 }
 
 h4 { font-family: 'Varela Round', sans-serif;
 font-size: 1.25em;
-color: #a66363;
+color: #D1B9FF;
 
 }
 
@@ -58,8 +69,9 @@ color: #a66363;
 
 
 a {
-  color: purple;
-  font-family: Oswald, sans-serif;
-  font-size: 0.50em;
+  color: #A788FF;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 0.80em;
+  text-align: center;
 
 }

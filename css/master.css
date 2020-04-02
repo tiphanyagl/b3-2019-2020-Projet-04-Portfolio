@@ -1,20 +1,17 @@
 body {
   background: url('images/BZP.jpg') top right no-repeat;
-
-
 }
 
 section {
-
   min-height: 99vh;
 }
 
-header { text-align: center;
-
+header {
+  text-align: center;
 }
 
-p { text-align: center;
-
+p {
+  text-align: center;
 }
 
 
@@ -22,12 +19,15 @@ p { text-align: center;
 h1 {
   background: none;
 }
-a { text-align: center;
+
+a {
+  text-align: center;
 }
 
 
 
-h2 { margin-top: 60px;
+h2 {
+  margin-top: 60px;
   /border-top:2px solid #a66363;/
   /border-style: dotted;/
   border-top-width: thick;
@@ -35,12 +35,10 @@ h2 { margin-top: 60px;
   margin-right: 100px;
   background: none;
   margin-top: 155px;
-
-
 }
 
-h3 {   margin: 10px;
-
+h3 {
+   margin: 10px;
 }
 
 .paperheart-feature-container {
@@ -54,7 +52,6 @@ h3 {   margin: 10px;
 }
 
 .paperheart-feature {
-
   padding: 1em;
   margin-bottom: 1em;
   flex-basis: 320px;
@@ -83,7 +80,6 @@ figcaption {
 }
 
 .photo-feature {
-
   padding: 3em;
   margin-bottom: 1em;
 
@@ -91,15 +87,12 @@ figcaption {
 
 
 .graphism-feature-container {
-
   margin: auto;
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background: url('images/BAP.jpg') top right no-repeat;
-
-
 }
 
 .graphism-feature {
@@ -107,5 +100,4 @@ padding: 1em;
 margin-bottom: 1em;
 flex-basis: 320px;
 flex-grow: 0;
-
 }

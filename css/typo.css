@@ -1,29 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400|Playfair+Display:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-body {
-
-}
 .paperheart-feature {
 color: white;
 }
 
 .graphism-feature {
   color: white;
-
 }
 
-figcaption { font-family: 'Raleway', sans-serif;
+figcaption {
+  font-family: 'Raleway', sans-serif;
 color: #FF89F1;
 }
 
-p{ font-family: Oswald, sans-serif;
+p{
+  font-family: Oswald, sans-serif;
   color: #DFC9FF;
 
 }
@@ -58,10 +54,10 @@ h3 {
 
 }
 
-h4 { font-family: 'Varela Round', sans-serif;
+h4 {
+  font-family: 'Varela Round', sans-serif;
 font-size: 1.25em;
 color: #D1B9FF;
-
 }
 
 
@@ -73,5 +69,4 @@ a {
   font-family: 'Cutive Mono', monospace;
   font-size: 0.80em;
   text-align: center;
-
 }

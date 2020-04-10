@@ -37,18 +37,27 @@ a {
 
 h2 {
   margin-top: 60px;
-  /border-top:2px solid #a66363;/
-  /border-style: dotted;/
   border-top-width: thick;
   margin-left: 100px;
   margin-right: 100px;
   background: none;
   margin-top: 155px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
 
 
 h3 {
    margin: 10px;
+     text-transform: uppercase;
+}
+
+figcaption {
+  font-size: 0.6em;
+  font-style: italic;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
 }
 
 
@@ -70,44 +79,6 @@ h3 {
   flex-basis: 320px;
   flex-grow: 0;
 }
-
-
-figcaption {
-  font-size: 0.6em;
-  font-style: italic;
-  margin-top:10px;
-  margin-bottom:10px;
-  text-align: center;
-}
-
-
-
-.photo-feature-container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 1em;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  background: #F2EFFF;
-  background-size: 500px;
-}
-
-
-.photo-feature {
-  padding: 3em;
-  margin-bottom: 1em;
-  max-width:  300px;
-}
-
-
-.photo-feature {
-  padding: 3em;
-  margin-bottom: 1em;
-  max-width:  300px;
-  flex-basis: 700px;
-}
-
 
 
 .graphism-feature-container {
@@ -136,8 +107,6 @@ flex-grow: 0;
   flex-wrap: wrap;
   justify-content: center;
   background: url('images/BAP.jpg') top right no-repeat;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .graphism-page-feature {
@@ -145,9 +114,42 @@ padding: 1em;
 margin-bottom: 1em;
 flex-basis: 700px;
 flex-grow: 0;
-margin-left: 100px;
-margin-right: 100px;
+
 }
+
+
+
+
+
+.photo-feature-container {
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+  padding: 1em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background: #F2EFFF;
+  background-size: 500px;
+}
+
+
+.photo-feature {
+  padding: 3em;
+  margin-bottom: 1em;
+  max-width:  300px;
+}
+
+
+.photo-feature {
+  padding: 3em;
+  margin-bottom: 1em;
+  max-width:  300px;
+  flex-basis: 700px;
+}
+
+
+
 
 
 .pocketbook-feature-container {

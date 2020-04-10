@@ -13,10 +13,6 @@ header {
   text-align: center;
 }
 
-embed {
-  color: #F2EFFF;
-  align-items: center;
-}
 
 
 footer { text-align: center;
@@ -84,9 +80,6 @@ figcaption {
   text-align: center;
 }
 
-img {
-
-}
 
 
 .photo-feature-container {
@@ -158,12 +151,14 @@ margin-right: 100px;
 
 
 .pocketbook-feature-container {
+  max-width: 1000px;
   margin: auto;
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: url('images/BAP.jpg') top right no-repeat;
+  background: #F2EFFF;
+    text-align: center;
 
 
   }
@@ -182,7 +177,7 @@ margin-right: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url('images/BAP.jpg') center right no-repeat;
+    background: url('images/BAP.jpg') bottom right;
   }
 
   .aboutme-feature {

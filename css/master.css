@@ -1,13 +1,26 @@
 body {
   background: url('images/BZP.jpg') top right no-repeat;
+  max-width:
 }
+
 
 section {
   min-height: 99vh;
 }
 
+
 header {
   text-align: center;
+}
+
+embed {
+  color: #F2EFFF;
+  align-items: center;
+}
+
+
+footer { text-align: center;
+
 }
 
 p {
@@ -37,9 +50,11 @@ h2 {
   margin-top: 155px;
 }
 
+
 h3 {
    margin: 10px;
 }
+
 
 .paperheart-feature-container {
   max-width: 1000px;
@@ -49,7 +64,9 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   background: #F2EFFF;
+    text-align: center;
 }
+
 
 .paperheart-feature {
   padding: 1em;
@@ -58,6 +75,7 @@ h3 {
   flex-grow: 0;
 }
 
+
 figcaption {
   font-size: 0.6em;
   font-style: italic;
@@ -65,6 +83,11 @@ figcaption {
   margin-bottom:10px;
   text-align: center;
 }
+
+img {
+
+}
+
 
 .photo-feature-container {
   max-width: 1000px;
@@ -75,15 +98,23 @@ figcaption {
   justify-content: space-evenly;
   background: #F2EFFF;
   background-size: 500px;
-
-
 }
+
 
 .photo-feature {
   padding: 3em;
   margin-bottom: 1em;
-
+  max-width:  300px;
 }
+
+
+.photo-feature {
+  padding: 3em;
+  margin-bottom: 1em;
+  max-width:  300px;
+  flex-basis: 700px;
+}
+
 
 
 .graphism-feature-container {
@@ -93,11 +124,71 @@ figcaption {
   flex-wrap: wrap;
   justify-content: center;
   background: url('images/BAP.jpg') top right no-repeat;
+
+
 }
+
 
 .graphism-feature {
 padding: 1em;
 margin-bottom: 1em;
-flex-basis: 320px;
+flex-basis: 350px;
 flex-grow: 0;
 }
+
+.graphism-page-feature-container {
+  margin: auto;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url('images/BAP.jpg') top right no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.graphism-page-feature {
+padding: 1em;
+margin-bottom: 1em;
+flex-basis: 700px;
+flex-grow: 0;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+.pocketbook-feature-container {
+  margin: auto;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url('images/BAP.jpg') top right no-repeat;
+
+
+  }
+
+.pocketbook-feature {
+  padding: 1em;
+  margin-bottom: 1em;
+  flex-basis: 350px;
+  flex-grow: 0;
+  }
+
+
+  .aboutme-feature-container {
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url('images/BAP.jpg') center right no-repeat;
+  }
+
+  .aboutme-feature {
+    padding: 1em;
+    margin-bottom: 2em;
+    flex-basis: 350px;
+    flex-grow: 0;
+
+  }
